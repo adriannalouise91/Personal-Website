@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Overpass:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Overpass:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Overpass:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Overpass:wght@400;700&family=Raleway:ital,wght@0,100;0,400;1,100&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #295B42;
+}
+
+header {
+    color: #ab9e95;
+    margin: 20px 60px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: end;
+}
+
+.header-icons img {
+    margin: 20px 10px 0px 10px;
+    width: 30px;
+    max-height: 100%;
+}
+
+h1,
+nav {
+    display: flex;
+    align-items: center;
+    font-family: 'raleway';
+    font-weight: 300;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Nanum Myeongjo";
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+.title-footer {
+    color: white;
+}
+
+.body-header {
+    color: #ab9e95;
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+
+.about-container {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 250px;
+    margin-left: 200px;
+    margin-top: 90px;
+    box-sizing: border-box;
+}
+
+.paragraph-text {
+    font-family: "raleway";
+    font-size: 18px;
+    color: white;
+
+}
+
+.about-photo {
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    width: 650px;
+    height: auto;
+    border-radius: 4%;
+}
+
+.blog-preview {
+    background-color: white;
+    color: #295B42;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 700px;
+}
+
+.blog-header,
+.blog-links,
+.blog-photo {
+    margin-bottom: 20px;
+}
+
+.blog-header {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    font-weight: 200;
+}
+
+.blog-links {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-photo {
+    flex: 0 0 0 calc(33.33% -10px);
+}
+
+.blog-photo img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+
+
+
+.footer-container {
+    background-color: #AB9E95;
+    color: white;
+    font-family: "Nanum Myeongjo";
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    height: 200px
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+   margin-top: 25px;
+}
+.footer-column {
+    flex: 1;
+    max-width: 200px;
+}
+
+.footer-title {
+    margin-bottom: 25px;
+}
+
+.footer-column img {
+    width: 25px;
+    padding: 5px;
+}
+.footer-nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    font-family: "raleway";
+    column-count: 2;
+    column-gap: 10px;
+}
+
+.footer-nav li {
+    text-decoration: underline;
+    padding: 0 20px 20px;
+}
+
+.submit-button {
+    border: none;
+    background-color: white;
+    color: #AB9E95;
+    font-family: "raleway";
+    height: 50px;
+    width: 75px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.newsletter-input {
+    border: none;
+    color: #AB9E95;
+    font-family: "raleway";
+    height: 50px;
+    width: 250px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.newsletter-header {
+    margin-bottom: 20px;
+}
